@@ -4,17 +4,110 @@
 
 body {
     background-color: azure;
-    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    color: darkslategray;
     padding: 0;
 }
 
 #title {
     width: 100%;
+    height: 80px;
     margin: auto;
 }
 
 #title-text {
-    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(1px 1px 0.5px rgba(0, 0, 0, 0.5));
     font-size: 45pt;
-    font-family: "Tilt Warp";
+    font-weight: bold;
+}
+
+#subtitle {
+    margin-top: -5px;
+    text-align: center;
+    color: slategray;
+    font-style: italic;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 85%;
+}
+
+.thumbnail {
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.thumbnail:hover {
+    filter: sepia(20) brightness(1.2);
+    box-shadow: 0 0 20px rgba(255, 230, 90, 0.7);
+}
+
+.card {
+    flex: 1;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1.5em;
+    min-width: 300px;
+}
+
+.card1 {
+    background-color: hsl(180, 66%, 85%);
+}
+
+.card2 {
+    background-color: hsl(130, 66%, 85%);
+}
+
+.card3 {
+    background-color: hsl(80, 66%, 85%);
+}
+
+.card4 {
+    background-color: hsl(30, 66%, 85%);
+}
+
+button {
+    background-color: darkslategray;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 32px;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    font-size: 16px;
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: dimgray;
+}
+
+button:active {
+    background-color: gray;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    #title-text {
+        font-size: 32pt;
+    }
+
+    #subtitle {
+        font-size: small;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
 }
