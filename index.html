@@ -9,7 +9,7 @@
 	<meta name="description" content="A gallery of the projects I've been working on!">
 	<meta name="author" content="Hex">
 	<!-- Fonts and Stylesheets -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans:400,700">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -67,6 +67,46 @@
 				</p>
 				<div class="center">
 					<button id="card2-button" onclick="showHideDescription('#card2-text', '#card2-button')">
+						Show more
+					</button>
+				</div>
+			</div>
+			<div class="card card3">
+				<a href="https://hexmusictheory.github.io/2x2-Canonic-Sequence-Explorer/" target="_blank">
+					<img src="images/pattern explorer.png" alt="Canonic sequence web app thumbnail" width="100%"
+						class="thumbnail-pale" />
+				</a>
+				<h2>Canonic Sequence Web App</h2>
+				<p id="card3-text" class="card-text">
+					This project combined the DOM-manipulation techniques I learned from making this project gallery
+					with my previous, terminal-based program to make a fully interactive web app to explore 2x2 canonic
+					sequences. It will hopefully make a nice educational resource for musicians with an interest in
+					theory. The set of all 2x2 canonic sequences is generated algorithmically in JavaScript, and
+					populates a column to the left-hand side of the screen. To the right, details about individual
+					patterns the user clicks on are displayed, and above is a dynamic menu by which they can be
+					filtered. Information about each pattern is also dynamically generated via various algorithms, and
+					even the images were compiled from algorithmically generated <a href="https://lilypond.org/"
+						target="_blank">LilyPond</a> code. Over 1,000 lines of JavaScript and counting! 🥳
+				</p>
+				<div class="center">
+					<button id="card3-button" onclick="showHideDescription('#card3-text', '#card3-button')">
+						Show more
+					</button>
+				</div>
+			</div>
+			<div class="card card4">
+				<a href="https://github.com/hexmusictheory/Project-Gallery" target="_blank">
+					<img src="images/gallery.png" alt="A picture of this very page" width="100%"
+						class="thumbnail-pale" />
+				</a>
+				<h2>Project Gallery</h2>
+				<p id="card4-text" class="card-text">
+					What programmer doesn't love a bit of recursion? This project taught me a little bit about DOM
+					manipulation with JavaScript, and how to dynamically manipulate th display of information on a page
+					in response to user input.
+				</p>
+				<div class="center">
+					<button id="card4-button" onclick="showHideDescription('#card4-text', '#card4-button')">
 						Show more
 					</button>
 				</div>
