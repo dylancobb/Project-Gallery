@@ -71,7 +71,7 @@ a:active {
     min-width: 300px;
 }
 
-.card1 {
+.card1, .card7 {
     background-color: hsl(170, 66%, 85%);
 }
 
