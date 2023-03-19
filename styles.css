@@ -10,16 +10,16 @@ body {
 }
 
 a {
-    color: coral;
+    color: hsl(16, 100%, 38%);
     font-weight: bold;
 }
 
 a:hover {
-    color: hsl(16, 100%, 75%);
+    color: hsl(16, 100%, 50%);
 }
 
 a:active {
-    color: hsl(16, 100%, 81%);
+    color: hsl(16, 100%, 62%);
 }
 
 #title {
@@ -72,19 +72,27 @@ a:active {
 }
 
 .card1 {
-    background-color: hsl(180, 66%, 85%);
+    background-color: hsl(170, 66%, 85%);
 }
 
 .card2 {
-    background-color: hsl(130, 66%, 85%);
+    background-color: hsl(127.5, 66%, 85%);
 }
 
 .card3 {
-    background-color: hsl(80, 66%, 85%);
+    background-color: #ddf2c0;
 }
 
 .card4 {
-    background-color: hsl(30, 66%, 85%);
+    background-color: hsl(42.5, 66%, 85%);
+}
+
+.card5 {
+    background-color: #f2c0c0;
+}
+
+.card6 {
+    background-color: hsl(212.5, 66%, 85%);
 }
 
 button {
